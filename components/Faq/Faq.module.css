@@ -1,0 +1,114 @@
+.FAQSection {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 60px 0 100px;
+}
+  
+.FAQHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+  
+.FAQTitle {
+    font-size: 45px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    line-height: 1.15;
+    color: var(--text);
+}
+  
+.FAQList {
+    display: flex;
+    flex-direction: column;
+}
+  
+.FAQItem {
+    border-bottom: 1px solid rgba(44, 36, 32, 0.12);
+}
+  
+.FAQItem:first-child {
+    border-top: 1px solid rgba(44, 36, 32, 0.12);
+}
+  
+.FAQQuestion {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 22px 0;
+    background: none;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+    font-family: var(--font-raleway), sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+    line-height: 1.4;
+    color: var(--text);
+    transition: opacity 0.2s ease;
+}
+
+.FAQIcon {
+    flex-shrink: 0;
+    color: rgba(44, 36, 32, 0.4);
+    transition: transform 0.3s ease;
+}
+  
+.FAQItemOpen .FAQIcon {
+    transform: rotate(180deg);
+}
+  
+.FAQAnswerWrap {
+    display: grid;
+    grid-template-rows: 0fr;
+    transition: grid-template-rows 0.3s ease;
+}
+  
+.FAQItemOpen .FAQAnswerWrap {
+    grid-template-rows: 1fr;
+}
+  
+.FAQAnswer {
+    overflow: hidden;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.75;
+    color: rgba(44, 36, 32, 0.65);
+    padding-bottom: 0;
+    transition: padding-bottom 0.3s ease;
+}
+  
+.FAQItemOpen .FAQAnswer {
+    padding-bottom: 22px;
+}
+
+@media (max-width: 700px) {
+    .FAQSection {
+        padding: 20px 0 80px;
+    }
+
+    .FAQTitle {
+        font-size: 35px;
+    }
+
+    .FAQQuestion {
+        gap: 16px;
+        padding: 18px 0;
+        font-size: 16px;
+    }
+
+    .FAQAnswer {
+        font-size: 15px;
+    }
+      
+    .FAQItemOpen .FAQAnswer {
+        padding-bottom: 20px;
+    }
+}

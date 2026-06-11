@@ -182,7 +182,7 @@ export default function Home() {
           <div className={styles.FifthBlockList}>
             <div className={styles.FifthBlockListItem}>
               <div className={styles.FifthBlockListItemImage}>
-                <img src="/pngsForListFifthBlock/firstImage.png" alt="" />
+                <span className={styles.FifthBlockGlyph}>✦</span>
               </div>
               <div className={styles.FifthBlockListItemText}>
                 Перестаєш прокидатись з 3 ночі, починаєш говорити ні, відчуваєш себе
@@ -191,7 +191,7 @@ export default function Home() {
 
             <div className={styles.FifthBlockListItem}>
               <div className={styles.FifthBlockListItemImage}>
-                <img src="/pngsForListFifthBlock/secondImage.png" alt="" />
+                <span className={styles.FifthBlockGlyph}>✦</span>
               </div>
               <div className={styles.FifthBlockListItemText}>
                 Відчуваєш своє тіло і довіряєш йому
@@ -200,7 +200,7 @@ export default function Home() {
 
             <div className={styles.FifthBlockListItem}>
               <div className={styles.FifthBlockListItemImage}>
-                <img src="/pngsForListFifthBlock/thirdImage.png" alt="" />
+                <span className={styles.FifthBlockGlyph}>✦</span>
               </div>
               <div className={styles.FifthBlockListItemText}>
                 Знаєш, чого хочеш — і більше не соромишся цього
@@ -209,7 +209,7 @@ export default function Home() {
 
             <div className={styles.FifthBlockListItem}>
               <div className={styles.FifthBlockListItemImage}>
-                <img src="/pngsForListFifthBlock/forthImage.png" alt="" />
+                <span className={styles.FifthBlockGlyph}>✦</span>
               </div>
               <div className={styles.FifthBlockListItemText}>
                 Перестаєш себе контролювати і починаєш собі довіряти
@@ -218,7 +218,7 @@ export default function Home() {
 
             <div className={styles.FifthBlockListItem}>
               <div className={styles.FifthBlockListItemImage}>
-                <img src="/pngsForListFifthBlock/firdstImage.png" alt="" />
+                <span className={styles.FifthBlockGlyph}>✦</span>
               </div>
               <div className={styles.FifthBlockListItemText}>
                 Живеш із внутрішньої опори — а не зі страху чи «так треба»
@@ -227,7 +227,7 @@ export default function Home() {
 
             <div className={styles.FifthBlockListItem}>
               <div className={styles.FifthBlockListItemImage}>
-                <img src="/pngsForListFifthBlock/firstdImage.png" alt="" />
+                <span className={styles.FifthBlockGlyph}>✦</span>
               </div>
               <div className={styles.FifthBlockListItemText}>
                 Життя перестає бути схожим на боротьбу

@@ -305,6 +305,16 @@
     width: 70px;
     height: 70px;
     flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.FifthBlockGlyph {
+    font-size: 30px;
+    color: #c8a87a;
+    line-height: 1;
+    user-select: none;
 }
   
 .FifthBlockListItemImage img {
@@ -317,7 +327,7 @@
     display: flex;
     align-items: center;
     justify-content: start;
-    gap: 30px;
+
 }
 
 .FifthBlockListItemText {

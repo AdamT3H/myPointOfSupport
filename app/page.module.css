@@ -86,7 +86,7 @@ html {
     font-weight: 400;
     letter-spacing: 0.05em;
     line-height: 1.15;
-    color: var(--text);
+    color: var(--CTA);
     margin-bottom: 20px;
 }
 
@@ -166,7 +166,7 @@ html {
     font-weight: 400;
     letter-spacing: 0.02em;
     line-height: 1.2;
-    color: var(--text);
+    color: var(--CTA);
     margin-bottom: 24px;
 }
 
@@ -233,7 +233,7 @@ html {
     align-items: center;
     justify-content: center;
     text-align: center;
-    gap: 10px;
+    gap: 20px;
 }
 
 .ForthBlockLabel{
@@ -251,8 +251,8 @@ html {
     font-weight: 400;
     letter-spacing: 0.02em;
     line-height: 1.05;
-    color: var(--text);
-    margin-bottom: 50px;
+    color: var(--CTA);
+    margin-bottom: 10px;
 }
 
 .ForthBlockText{
@@ -265,6 +265,9 @@ html {
 
 .ForthBlockSlider{
     width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .ThirdBlockHeader{
@@ -282,7 +285,7 @@ html {
     font-weight: 400;
     letter-spacing: 0.05em;
     line-height: 1.15;
-    color: var(--text);
+    color: var(--CTA);
     margin-bottom: 20px;
     max-width: 600px;
     text-align: center;
@@ -355,7 +358,7 @@ html {
     font-weight: 400;
     letter-spacing: 0.05em;
     line-height: 1.15;
-    color: var(--text);
+    color: var(--CTA);
     margin-bottom: 20px;
     max-width: 600px;
     text-align: center;
@@ -521,7 +524,7 @@ html {
     font-weight: 400;
     letter-spacing: 0.05em;
     line-height: 1.15;
-    color: var(--text);
+    color: var(--CTA);
     margin-bottom: 20px;
 }
 
@@ -541,6 +544,48 @@ html {
     flex-direction: column;
     gap: 10px;
     transition: box-shadow 0.2s ease;
+}
+
+.CardVIP {
+    background: linear-gradient(135deg, #e1b54d, #e4bb5d, #d8b258);
+    position: relative;
+    overflow: hidden;
+}
+
+.CardVIP::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(125deg, transparent 40%, #f5e19a88 50%, transparent 60%);
+    background-size: 200% 100%;
+    animation: shimmer 6s linear infinite;
+}
+
+@keyframes shimmer {
+    0%   { background-position: 200% 0; }
+    100% { background-position: -200% 0; }
+}
+
+.CardPopular {
+    border: 2px solid #c8a87a;
+    background-color: #fff;
+    position: relative;
+}
+
+.PopularBadge {
+    position: absolute;
+    top: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #c8a87a;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    padding: 4px 14px;
+    border-radius: 50px;
+    white-space: nowrap;
 }
 
 .Card:hover {
@@ -712,7 +757,7 @@ html {
     font-weight: 400;
     letter-spacing: 0.04em;
     line-height: 1.15;
-    color: var(--text);
+    color: var(--CTA);
     margin-bottom: 24px;
 }
 
@@ -750,6 +795,18 @@ html {
     opacity: 0.8;
 }
 
+.slide {
+    border-radius: 14px;
+    width: 240px;
+    height: 360px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.FeatureItemBold{
+    font-weight: 600;
+}
+
 @media (max-width: 1000px) {
     .PricingGrid {
         grid-template-columns: repeat(2, 1fr);
@@ -779,7 +836,7 @@ html {
 
     .ForthBlock{
         flex-direction: column;
-        gap: 20px;
+        gap: 50px;
     }
 
     .ForthBlockHeader{
@@ -792,7 +849,7 @@ html {
 
     .ForthBlockTitle{
         font-size: 30px;
-        margin-bottom: 40px;
+        margin-bottom: 0px;
     }
 
     .ForthBlockText{
@@ -873,12 +930,17 @@ html {
     }
 
     .FifthBlockListItem{
-        gap: 25px;
+        gap: 10px;
     }
 
     .FifthBlockListItemText {
         font-size: 15px;
     }
+
+    .FifthBlockList{
+        gap: 30px;
+    }
+    
 
     .SixthBlockTitle{
         font-size: 35px;

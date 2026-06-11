@@ -1,5 +1,4 @@
 import styles from './page.module.css'
-import PhotoCarousel from '@/components/PhotoCarousel/PhotoCarousel'
 import FAQ from '@/components/Faq/Faq'
 
 export default function Home() {
@@ -42,28 +41,28 @@ export default function Home() {
 
             <ul className={styles.SecondBlockList}>
               <li className={styles.SecondBlockItem}>
-                Прокидаєшся з тривогою. Засинаєш з тривогою
+                Тривога не відпускає навіть у спокійні моменти
               </li>
 
               <li className={styles.SecondBlockItem}>
-                Живеш на автопілоті — реагуєш, а не обираєш
+                Ви живете так, ніби постійно потрібно щось встигнути
               </li>
 
               <li className={styles.SecondBlockItem}>
-                Втомлена, але зупинитись страшно
+                Зупинитися страшно, продовжувати - виснажливо
               </li>
 
               <li className={styles.SecondBlockItem}>
-                Відчуваєш, що не можеш собі дозволити бути собою
+                Бути собою стає дедалі складніше
               </li>
 
               <li className={styles.SecondBlockItem}>
-                Зовні все є — а всередині порожньо
+                Зовні життя триває. Всередині - бракує опори
               </li>
             </ul>
 
             <div className={styles.SecondBlockSummary}>
-              Якщо хоч щось із цього — про тебе, тобі точно сюди.
+              Якщо хоч щось із цього — про Вас, вам точно сюди
             </div>
           </div>
         </div>
@@ -90,16 +89,16 @@ export default function Home() {
                 КПТ
               </div>
               <div className={styles.ThirdBlockMethodDesc}>
-                Робота з мисленням і патернами
+                Допомагає змінювати думки та поведінкові реакції
               </div>
             </div>
 
             <div className={styles.ThirdBlockMethodCard}>
               <div className={styles.ThirdBlockMethodName}>
-                IFS
+                Метафоричні карти
               </div>
               <div className={styles.ThirdBlockMethodDesc}>
-                Робота з мисленням і патернами
+                Допомагають побачити внутрішні процеси через образи
               </div>
             </div>
 
@@ -108,7 +107,7 @@ export default function Home() {
                 EFT
               </div>
               <div className={styles.ThirdBlockMethodDesc}>
-                Робота з мисленням і патернами
+                Допомагає краще розуміти та проживати емоції
               </div>
             </div>
 
@@ -117,16 +116,16 @@ export default function Home() {
                 Тілесно-орієнтовані практики
               </div>
               <div className={styles.ThirdBlockMethodDesc}>
-                Робота з мисленням і патернами
+                Допомагає відновити зв’язок між думками, емоціями та тілом
               </div>
             </div>
 
             <div className={styles.ThirdBlockMethodCard}>
               <div className={styles.ThirdBlockMethodName}>
-                Арт-терапія + МАК
+                Арт-терапія
               </div>
               <div className={styles.ThirdBlockMethodDesc}>
-                Образи і метафори як доступ до глибинних процесів
+                Допомагає виразити внутрішній світ через творчість
               </div>
             </div>
 
@@ -135,7 +134,7 @@ export default function Home() {
                 Коучингові інструменти
               </div>
               <div className={styles.ThirdBlockMethodDesc}>
-                Структура і підтримка руху до змін
+                Допомагають прояснити цілі та знайти власні рішення
               </div>
             </div>
           </div>
@@ -149,22 +148,34 @@ export default function Home() {
             <div className={styles.ForthBlockLabel}>
               Привіт, я Тетяна
             </div>
+
             <div className={styles.ForthBlockTitle}>
-              Я пройшла свій шлях — через переїзди, збирала себе по шматочках. 7 років практики
+              Я у психології з 2006 року <br /> Практикую понад 7 років
+            </div>
+
+            <div className={styles.ForthBlockTitle}>
+
             </div>
 
             <div className={styles.SecondBlockLine}></div>
 
             <div className={styles.ForthBlockText}>
-              Я знаю, як це — коли зовні все є, а всередині порожньо. Коли живеш «правильно», але десь глибоко відчуваєш: це не моє життя
+              Мій професійний шлях сформувався через навчання, практику та власний досвід проживання змін і внутрішніх трансформацій
             </div>
+
             <div className={styles.ForthBlockText}>
-              Зараз я допомагаю людям повертатись до своєї природи. Не через «роботу над собою» і нові списки завдань, а через контакт із собою, своїм тілом, своїми справжніми бажаннями
+              У роботі спираюся на глибоке розуміння психічних процесів, точність і уважність до індивідуального темпу людини
+            </div>
+
+            <div className={styles.ForthBlockText}>
+              Мій підхід — інтегративний, структурний і дбайливий. Я працюю з тим, як людина вибудовує контакт із собою, своїми станами та внутрішньою опорою
             </div>
           </div>
 
           <div className={styles.ForthBlockSlider}>
-            <PhotoCarousel />
+            <div className={styles.slide}>
+              <img src="/photosAboutMeSlider/IMG_5500.JPG" alt="" />
+            </div>
           </div>
         </div>
       </div>
@@ -173,7 +184,7 @@ export default function Home() {
         <div className={styles.FifthBlock}>
           <div className={styles.FifthBlockHeader}>
             <div className={styles.FifthBlockTitle}>
-              Через 21 день ти помітиш різницю
+              Через 21 день ви помітите зміни у своєму стані
             </div>
           </div>
 
@@ -185,7 +196,7 @@ export default function Home() {
                 <span className={styles.FifthBlockGlyph}>✦</span>
               </div>
               <div className={styles.FifthBlockListItemText}>
-                Перестаєш прокидатись з 3 ночі, починаєш говорити ні, відчуваєш себе
+                Може з’явитися більше стабільності у сні та загальному самопочутті
               </div>
             </div>
 
@@ -194,7 +205,7 @@ export default function Home() {
                 <span className={styles.FifthBlockGlyph}>✦</span>
               </div>
               <div className={styles.FifthBlockListItemText}>
-                Відчуваєш своє тіло і довіряєш йому
+                Вам стане легше говорити «ні» без провини<br />Поступово формуються чіткіші особисті межі
               </div>
             </div>
 
@@ -203,7 +214,7 @@ export default function Home() {
                 <span className={styles.FifthBlockGlyph}>✦</span>
               </div>
               <div className={styles.FifthBlockListItemText}>
-                Знаєш, чого хочеш — і більше не соромишся цього
+                Ви почнете краще відчувати своє тіло і його сигнали<br />З’являється більше довіри до себе
               </div>
             </div>
 
@@ -212,7 +223,7 @@ export default function Home() {
                 <span className={styles.FifthBlockGlyph}>✦</span>
               </div>
               <div className={styles.FifthBlockListItemText}>
-                Перестаєш себе контролювати і починаєш собі довіряти
+                Зменшується постійний самоконтроль і внутрішня напруга<br />Рішення частіше приймаються з ясності, а не зі страху
               </div>
             </div>
 
@@ -221,16 +232,7 @@ export default function Home() {
                 <span className={styles.FifthBlockGlyph}>✦</span>
               </div>
               <div className={styles.FifthBlockListItemText}>
-                Живеш із внутрішньої опори — а не зі страху чи «так треба»
-              </div>
-            </div>
-
-            <div className={styles.FifthBlockListItem}>
-              <div className={styles.FifthBlockListItemImage}>
-                <span className={styles.FifthBlockGlyph}>✦</span>
-              </div>
-              <div className={styles.FifthBlockListItemText}>
-                Життя перестає бути схожим на боротьбу
+                Життя поступово стає більш опорним зсередини, а не керованим лише «треба» чи «як правильно».
               </div>
             </div>
           </div>
@@ -479,7 +481,7 @@ export default function Home() {
                   <svg className={styles.CheckIcon} width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
                     <polyline points="20 6 9 17 4 12" />
                   </svg>
-                  Онлайн-щоденник
+                  <span><span className={styles.FeatureItemBold}>Онлайн</span>-щоденник</span>
                 </li>
               </ul>
 
@@ -526,7 +528,7 @@ export default function Home() {
                   <svg className={styles.CheckIcon} width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
                     <polyline points="20 6 9 17 4 12" />
                   </svg>
-                  Щоденник на друкованій основі
+                  <span>Щоденник <span className={styles.FeatureItemBold}>на друкованій основі</span></span>
                 </li>
               </ul>
 
@@ -554,14 +556,14 @@ export default function Home() {
                   <svg className={styles.CheckIcon} width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
                     <polyline points="20 6 9 17 4 12" />
                   </svg>
-                  Онлайн-щоденник
+                  <span><span className={styles.FeatureItemBold}>Онлайн</span>-щоденник</span>
                 </li>
 
                 <li className={styles.FeatureItem}>
                   <svg className={styles.CheckIcon} width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
                     <polyline points="20 6 9 17 4 12" />
                   </svg>
-                  Супровід психолога
+                  <span><span className={styles.FeatureItemBold}>Супровід</span> психолога</span>
                 </li>
 
                 <li className={styles.FeatureItem}>
@@ -582,7 +584,8 @@ export default function Home() {
               </button>
             </div>
 
-            <div className={styles.Card}>
+            <div className={`${styles.Card} ${styles.CardPopular}`}>
+              <div className={styles.PopularBadge}>Популярний</div>
               <div className={styles.CardTitle}>Тепла присутність</div>
 
               <div className={styles.PriceRow}>
@@ -596,14 +599,14 @@ export default function Home() {
                   <svg className={styles.CheckIcon} width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
                     <polyline points="20 6 9 17 4 12" />
                   </svg>
-                  Щоденник на друкованій основі
+                  <span>Щоденник <span className={styles.FeatureItemBold}>на друкованій основі</span></span>
                 </li>
 
                 <li className={styles.FeatureItem}>
                   <svg className={styles.CheckIcon} width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
                     <polyline points="20 6 9 17 4 12" />
                   </svg>
-                  Супровід психолога
+                  <span><span className={styles.FeatureItemBold}>Супровід</span> психолога</span>
                 </li>
 
                 <li className={styles.FeatureItem}>
@@ -624,8 +627,8 @@ export default function Home() {
               </button>
             </div>
 
-            <div className={styles.Card}>
-              <div className={styles.CardTitle}>Глибока трансформація (Індивідуальний)</div>
+            <div className={`${styles.Card} ${styles.CardVIP}`}>
+              <div className={styles.CardTitle}>VIP Пакет</div>
 
               <div className={styles.PriceRow}>
                 <span className={styles.Price}>$500</span>
@@ -638,21 +641,21 @@ export default function Home() {
                   <svg className={styles.CheckIcon} width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
                     <polyline points="20 6 9 17 4 12" />
                   </svg>
-                  Персональний супровід психолога
+                  <span>Персональний <span className={styles.FeatureItemBold}>супровід</span> психолога</span>
                 </li>
 
                 <li className={styles.FeatureItem}>
                   <svg className={styles.CheckIcon} width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
                     <polyline points="20 6 9 17 4 12" />
                   </svg>
-                  Практики онлайн
+                  <span>Практики <span className={styles.FeatureItemBold}>онлайн</span></span>
                 </li>
 
                 <li className={styles.FeatureItem}>
                   <svg className={styles.CheckIcon} width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
                     <polyline points="20 6 9 17 4 12" />
                   </svg>
-                  5 індивідуальних сесій онлайн
+                  <span>5 індивідуальних сесій <span className={styles.FeatureItemBold}>онлайн</span></span>
                 </li>
               </ul>
 

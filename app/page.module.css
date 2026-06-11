@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .Container {
     max-width: 1100px;
     width: 100%;
@@ -726,7 +730,7 @@
     margin-bottom: 45px;
 }
 
-.LastBlock a{
+.LastBlockPol{
     margin-top: 25px;
     font-size: 12px;
     font-weight: 300;
@@ -741,12 +745,12 @@
 }
 
 
-.LastBlock a:hover{
+.LastBlockPol:hover{
     transform: scale(1.08);
     opacity: 0.8;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
     .PricingGrid {
         grid-template-columns: repeat(2, 1fr);
         gap: 12px;
@@ -771,6 +775,32 @@
         font-weight: 300;
         color: var(--text);
         letter-spacing: -0.01em;
+    }
+
+    .ForthBlock{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .ForthBlockHeader{
+        width: 100%;
+    }
+
+    .ForthBlockLabel{
+        font-size: 12px;
+    }
+
+    .ForthBlockTitle{
+        font-size: 30px;
+        margin-bottom: 40px;
+    }
+
+    .ForthBlockText{
+        font-size: 15px;
+    }
+
+    .ForthBlockSlider{
+        width: 100%;
     }
 }
 
@@ -829,32 +859,6 @@
     .ThirdBlockMethodDesc {
         font-size: 16px;
         padding: 22px 26px;
-    }
-
-    .ForthBlock{
-        flex-direction: column;
-        gap: 20px;
-    }
-
-    .ForthBlockHeader{
-        width: 100%;
-    }
-
-    .ForthBlockLabel{
-        font-size: 12px;
-    }
-
-    .ForthBlockTitle{
-        font-size: 30px;
-        margin-bottom: 40px;
-    }
-
-    .ForthBlockText{
-        font-size: 15px;
-    }
-
-    .ForthBlockSlider{
-        width: 100%;
     }
 
     .FifthBlockTitle{

@@ -13,7 +13,7 @@ export default function Home() {
               Моя точка опори
             </div>
 
-            <button className={styles.FirstBlockBtn}>
+            <a href="#pricing" className={styles.FirstBlockBtn}>
               Дізнатись більше
               <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
                 <path
@@ -24,7 +24,7 @@ export default function Home() {
                   strokeLinejoin="round"
                 />
               </svg>
-            </button>
+            </a>
             
           </div>
         </div>
@@ -436,7 +436,7 @@ export default function Home() {
       </div>
 
       <div className="container">
-        <div className={styles.SeventhBlock}>
+        <div className={styles.SeventhBlock} id="pricing">
           <div className={styles.SeventhBlockHeader}>
             <div className={styles.SeventhBlockTitle}>
               Обери свій формат участі
@@ -692,7 +692,7 @@ export default function Home() {
               Не «потім, коли буде час». Прямо зараз
             </div>
 
-            <button className={styles.FirstBlockBtn}>
+            <a href="#pricing" className={styles.FirstBlockBtn}>
               Придбати курс
               <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
                 <path
@@ -703,12 +703,12 @@ export default function Home() {
                   strokeLinejoin="round"
                 />
               </svg>
-            </button>
+            </a>
 
-            <a href="/docs/privacy-policy.pdf" target="_blank" rel="noopener">
+            <a href="/docs/privacy-policy.pdf" target="_blank" rel="noopener" className={styles.LastBlockPol}>
               Політика конфіденційності
             </a>
-            <a href="/docs/public-offer.pdf" target="_blank" rel="noopener">
+            <a href="/docs/public-offer.pdf" target="_blank" rel="noopener" className={styles.LastBlockPol}>
               Публічна оферта
             </a>
           </div>

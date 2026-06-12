@@ -485,14 +485,17 @@ export default function Home() {
                 </li>
               </ul>
 
-              <button
+              <a
                 className={styles.Cta}
+                href="https://secure.wayforpay.com/button/b455cb0d778e8"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 Обрати
                 <svg width="14" height="14" viewBox="0 0 16 16" fill="none">
                   <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" strokeWidth="1.3" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
-              </button>
+              </a>
             </div>
 
             <div className={styles.Card}>
@@ -532,14 +535,17 @@ export default function Home() {
                 </li>
               </ul>
 
-              <button
+              <a
                 className={styles.Cta}
+                href="https://secure.wayforpay.com/button/b6cded784797b"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 Обрати
                 <svg width="14" height="14" viewBox="0 0 16 16" fill="none">
                   <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" strokeWidth="1.3" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
-              </button>
+              </a>
             </div>
 
             <div className={styles.Card}>
@@ -574,14 +580,17 @@ export default function Home() {
                 </li>
               </ul>
 
-              <button
+              <a
                 className={styles.Cta}
+                href="https://secure.wayforpay.com/button/bf4afcaa456f1"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 Обрати
                 <svg width="14" height="14" viewBox="0 0 16 16" fill="none">
                   <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" strokeWidth="1.3" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
-              </button>
+              </a>
             </div>
 
             <div className={`${styles.Card} ${styles.CardPopular}`}>
@@ -617,14 +626,17 @@ export default function Home() {
                 </li>
               </ul>
 
-              <button
+              <a
                 className={styles.Cta}
+                href="https://secure.wayforpay.com/button/b17da718aa711"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 Обрати
                 <svg width="14" height="14" viewBox="0 0 16 16" fill="none">
                   <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" strokeWidth="1.3" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
-              </button>
+              </a>
             </div>
 
             <div className={`${styles.Card} ${styles.CardVIP}`}>
@@ -659,14 +671,17 @@ export default function Home() {
                 </li>
               </ul>
 
-              <button
+              <a
                 className={styles.Cta}
+                href="https://secure.wayforpay.com/button/b577c184a4377"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 Обрати
                 <svg width="14" height="14" viewBox="0 0 16 16" fill="none">
                   <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" strokeWidth="1.3" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
-              </button>
+              </a>
             </div>
           </div>
 
@@ -684,11 +699,11 @@ export default function Home() {
         <div className="container">
           <div className={styles.LastBlockHeader}>
             <div className={styles.LastBlockTitle}>
-              Готова повернутись до себе?
+              Ви готові повернутись до себе?
             </div>
 
             <div className={styles.LastBlockSecond}>
-              Це і є той момент, коли ти вибираєш себе
+              Це і є той момент, коли Ви вибираєте себе
             </div>
 
             <div className={styles.LastBlockSecond}>

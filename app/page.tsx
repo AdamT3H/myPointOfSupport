@@ -452,7 +452,7 @@ export default function Home() {
               <div className={styles.CardTitle}>Перший крок</div>
 
               <div className={styles.PriceRow}>
-                <span className={styles.Price}>$20</span>
+                <span className={styles.Price}>$25</span>
               </div>
 
               <div className={styles.Divider} />
@@ -502,7 +502,7 @@ export default function Home() {
               <div className={styles.CardTitle}>Дотик до себе</div>
 
               <div className={styles.PriceRow}>
-                <span className={styles.Price}>$30</span>
+                <span className={styles.Price}>$39</span>
               </div>
 
               <div className={styles.Divider} />
@@ -552,7 +552,7 @@ export default function Home() {
               <div className={styles.CardTitle}>Опора поруч</div>
 
               <div className={styles.PriceRow}>
-                <span className={styles.Price}>$49</span>
+                <span className={styles.Price}>$59</span>
               </div>
 
               <div className={styles.Divider} />
@@ -598,7 +598,7 @@ export default function Home() {
               <div className={styles.CardTitle}>Тепла присутність</div>
 
               <div className={styles.PriceRow}>
-                <span className={styles.Price}>$69</span>
+                <span className={styles.Price}>$79</span>
               </div>
 
               <div className={styles.Divider} />
@@ -643,7 +643,7 @@ export default function Home() {
               <div className={styles.CardTitle}>VIP Пакет</div>
 
               <div className={styles.PriceRow}>
-                <span className={styles.Price}>$500</span>
+                <span className={styles.Price}>$550</span>
               </div>
 
               <div className={styles.Divider} />
